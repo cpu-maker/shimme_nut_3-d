@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #0c0f14;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    background: radial-gradient(circle at center, #1a1f2b 0%, #0c0f14 100%);
+    box-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+#stats {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #e74c3c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #c0392b;
+}
